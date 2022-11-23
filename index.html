@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <title>Document</title>
+    <style>
+        .bg-cover{
+            background-size: cover;
+            background-position: center center;        
+        }
+        .object-fixed{
+            object-fit:cover;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: var(--bs-secondary);
+        }
+
+    </style>
+</head>
+<body>
+    <header class="min-vh-100 position-relative">
+        <div class="box position-absolute "></div>
+        <div class="box position-absolute end-0 bottom-0"></div>
+        <div class="bg-cover position-absolute" style="background-attachment: fixed; top:20px;left:20px;right:20px;bottom:20px; background-image: url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80);">
+            <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                <h1 class="display-1 text-white">陳 三角</h1>
+                <hr class="my-1 mx-n3">
+            <p class="h4 text-white">Ttriangle Chen</p>
+            <p class="text-white">流浪 到天邊，天邊 一隻蟹</p>
+            </div>           
+        </div>
+    </header>
+    <div class="container">
+        <div class="row d-flex gy-3 mt-2 justify-content-center flex-md-row-reverse">
+            <div class="col-md-4">
+            <div class="bg-cover object-fixed" style="height: 500px; background-image: url(https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);"></div>
+            </div>
+            <div class="col-md-5 d-flex align-items-center">
+                <div>
+                <h2 class="text-center">關於我，陳三角</h2>
+                <p class="h-100">你紙爸發全家聽，綠間不結縣我究，個毛亮高人。卻高酒死這形易止經我腳家立力還上這可......回男腦回義心便有當會兩水記生這自；演般否前出級就話萬水直無基可住。廣製因，全氣改我？
+                    為說過著因識空共十房比面科別工人人變童角力男馬媽手趣。明型大方失，經面事馬，來聲小施大；看地自一適，在書寫賽我在。子帶出麼如就味那解的：最半有手然能勢此精觀山好沒生快我足很麗而變最放，上英灣媽？</p>
+                <a href="#" class="btn btn-outline-primary w-100 mt-4">看更多我的冒險故事</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
